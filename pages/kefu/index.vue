@@ -7,7 +7,7 @@
 			<view class="box1d">如有问题，请联系客服或留言</view>
 		</view>
 		<view class="box2">
-			<view class="box2left" @click="gopage('/pages/kefu/web')">在线客服</view>
+			<view class="box2left" @click="showKefuToast('/pages/kefu/web')">在线客服</view>
 			<view class="box2right" @click="gopage('/pages/feedback/index')">立即投诉</view>
 		</view>
 		<view class="box3">致买家关心的问题解答</view>
@@ -77,6 +77,13 @@
 						that.faqlist = e.data
 					}
 				})
+			},
+			showKefuToast(){
+				uni.showToast({
+					title: '当前咨询人数过多，请稍后再试!',
+					icon: 'none',
+					duration: 1500
+				});
 			},
 		}
     }
