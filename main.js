@@ -134,8 +134,8 @@ Vue.prototype.req = function(param, backpage, backtype) {
 }
 
 
-Vue.prototype.siteBaseUrl = 'https://tao2jfshop.iyzhan.com/api/';
-Vue.prototype.H5BaseUrl = 'https://tao2jfshop.iyzhan.com/';
+Vue.prototype.siteBaseUrl = 'https://houtai.se34567.xyz/api/';
+Vue.prototype.H5BaseUrl = 'https://houtai.se34567.xyz/';
 
 
 

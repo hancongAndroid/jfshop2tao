@@ -96,7 +96,8 @@
 					<view class="pay-type">
 						<image v-if="item.type === 2" src="/static/wx_pay.png" mode="widthFix"></image>
 						<image v-if="item.type === 1" src="/static/zfb_pay.png" mode="widthFix"></image>
-						<image v-if="item.type === 3" src="/static/ye_pay.png" mode="widthFix"></image>
+						<image v-if="item.type === 3" src="/static/wx_pay.png" mode="widthFix"></image>
+						<image class="sub-image" v-if="item.type === 3" src="/static/zfb_pay.png" mode="widthFix"></image>
 					<view class="title-box">
 					  <view class="title">{{item.title}}<text v-if="item.type === 2" class="highlight-color">(推荐)</text></view>
 					  <view class="sub-title" v-if="item.type === 2">使用微信支付 <text class="highlight-color">安全.方便</text></view>
