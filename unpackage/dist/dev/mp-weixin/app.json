@@ -1,0 +1,71 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/rank/index",
+    "pages/invest/index",
+    "pages/searchorder/index",
+    "pages/user/index",
+    "pages/detail/index",
+    "pages/detail/payinfo",
+    "pages/detail/payment",
+    "pages/detail/payresult",
+    "pages/order/index",
+    "pages/order/info",
+    "pages/address/add",
+    "pages/address/index",
+    "pages/search/search",
+    "pages/SignIn/SignIn",
+    "pages/Feedback/Feedback",
+    "pages/AboutUs/AboutUs"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "商城",
+    "navigationBarBackgroundColor": "#f6f6f6",
+    "backgroundColor": "#f6f6f6",
+    "backgroundColorTop": "#FFFFFF"
+  },
+  "tabBar": {
+    "custom": true,
+    "selectedColor": "#f23030",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "iconPath": "/static/tabBar/tab1.png",
+        "selectedIconPath": "/static/tabBar/tab1_active.png",
+        "pagePath": "pages/index/index",
+        "text": ""
+      },
+      {
+        "iconPath": "/static/tabBar/tab2.png",
+        "selectedIconPath": "/static/tabBar/tab2_active.png",
+        "pagePath": "pages/rank/index",
+        "text": ""
+      },
+      {
+        "iconPath": "/static/tabBar/tab3.png",
+        "selectedIconPath": "/static/tabBar/tab3_active.png",
+        "pagePath": "pages/invest/index",
+        "text": ""
+      },
+      {
+        "iconPath": "/static/tabBar/tab4.png",
+        "selectedIconPath": "/static/tabBar/tab4_active.png",
+        "pagePath": "pages/searchorder/index",
+        "text": ""
+      },
+      {
+        "iconPath": "/static/tabBar/tab5.png",
+        "selectedIconPath": "/static/tabBar/tab5_active.png",
+        "pagePath": "pages/user/index",
+        "text": ""
+      }
+    ]
+  },
+  "usingComponents": {
+    "dialog-box": "/components/DialogBox/DialogBox",
+    "mescroll-body": "/components/mescroll-uni/mescroll-body",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni"
+  }
+}

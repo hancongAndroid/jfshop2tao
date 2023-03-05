@@ -1,0 +1,7 @@
+{
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationBarTitleText": "兑换中心",
+  "usingComponents": {
+    "tab-bar": "/components/TabBar/TabBar"
+  }
+}

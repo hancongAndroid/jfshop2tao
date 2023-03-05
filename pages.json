@@ -1,0 +1,221 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+			{
+				"path":"pages/invest/index",
+				"style":{
+					"app-plus":{
+						"titleNView":false
+					},
+					"navigationBarBackgroundColor": "#FFFFFF",
+					"navigationBarTitleText": "兑换中心"
+				}
+			},{
+		      "path" : "pages/index/index",
+		      "style" : {
+						// #ifdef APP-PLUS
+						"navigationStyle": "custom",
+						"app-plus":{
+							"titleNView":false    //去掉当前页的顶部导航栏
+						},
+						"navigationBarTextStyle":"white",
+						// #endif
+						// #ifdef MP
+						"navigationBarTitleText": "首页",
+						"navigationBarBackgroundColor": "#FFFFFF",
+						// #endif
+						"h5":{
+							"titleNView": false
+						}
+					}
+		  },
+		  {
+		  		"path":"pages/rank/index",
+		  		"style":{
+		  			"app-plus":{
+		  				"titleNView":false
+		  			},
+		  			"navigationBarBackgroundColor": "#FFFFFF",
+		  			"navigationBarTitleText": "疯抢排行"
+		  		}
+		  	}
+		  ,{
+		  		"path":"pages/searchorder/index",
+		  		"style":{
+		  			"app-plus":{
+		  				"titleNView":false
+		  			},
+		  			"navigationBarBackgroundColor": "#FFFFFF",
+		  			"navigationBarTitleText": "我的订单"
+		  		}
+		  	},{
+		  		"path":"pages/user/index",
+		  		"style":{
+		  			"app-plus":{
+		  				"titleNView":false
+		  			},
+		  			"navigationBarBackgroundColor": "#FFFFFF",
+		  			"navigationBarTitleText": "个人中心"
+		  		}
+		  	},
+			{
+				"path":"pages/detail/index",
+				"style":{
+					"app-plus":{
+						"titleNView":false
+					},
+					"navigationBarBackgroundColor": "#FFFFFF",
+					"navigationBarTitleText": "商品详情"
+				}
+			},
+			{
+				"path":"pages/detail/payinfo",
+				"style":{
+					"navigationBarBackgroundColor": "#FFFFFF",
+					"navigationBarTitleText": "付款页"
+				}
+			},
+			{
+				"path":"pages/detail/payweb",
+				"style":{
+					"navigationBarBackgroundColor": "#FFFFFF",
+					"navigationBarTitleText": "付款页"
+				}
+			},
+			{
+				"path":"pages/detail/payment",
+				"style":{
+					"navigationBarBackgroundColor": "#FFFFFF",
+					"navigationBarTitleText": "付款页"
+				}
+			},
+			{
+				"path":"pages/detail/payresult",
+				"style":{
+					"navigationBarBackgroundColor": "#FFFFFF",
+					"navigationBarTitleText": "付款成功"
+				}
+			},
+			{
+				"path":"pages/order/index",
+				"style":{
+					"app-plus":{
+						"titleNView":false
+					},
+					"navigationBarBackgroundColor": "#FFFFFF",
+					"navigationBarTitleText": "我的订单"
+				}
+			},
+			{
+				"path":"pages/order/info",
+				"style":{
+					"navigationBarBackgroundColor": "#FFFFFF",
+					"navigationBarTitleText": "订单详情"
+				}
+			},
+			{
+				"path":"pages/address/add",
+				"style":{
+					"navigationBarBackgroundColor": "#FFFFFF",
+					"navigationBarTitleText": "添加/编辑地址"
+				}
+			},
+			{
+				"path":"pages/address/index",
+				"style":{
+					"navigationBarBackgroundColor": "#FFFFFF",
+					"navigationBarTitleText": "收货地址"
+				}
+			},
+			{
+				"path" : "pages/search/search",
+				"style" : {
+					"navigationStyle":"custom"
+				}
+			}
+        
+        ,{
+            "path" : "pages/signin/index",
+            "style" : {
+            	"navigationBarTitleText": "签到",
+            	"navigationBarBackgroundColor": "#FFFFFF"
+            }
+        }
+        
+        ,{
+            "path" : "pages/feedback/index",
+            "style" : {
+            	"navigationBarTitleText": "意见反馈",
+            	"navigationBarBackgroundColor": "#FFFFFF"
+            }
+        }
+        ,{
+            "path" : "pages/aboutus/index",
+            "style" : {
+            	"navigationBarTitleText": "关于我们",
+            	"navigationBarBackgroundColor": "#FFFFFF"
+            }
+        },{
+            "path" : "pages/user/article",
+            "style" : {
+            	"navigationBarTitleText": "隐私协议",
+            	"navigationBarBackgroundColor": "#FFFFFF"
+            }
+        },{
+            "path" : "pages/kefu/index",
+            "style" : {
+            	"navigationBarTitleText": "在线客服",
+            	"navigationBarBackgroundColor": "#FFFFFF"
+            }
+        },{
+            "path" : "pages/kefu/web",
+            "style" : {
+            	"navigationBarTitleText": "在线客服",
+            	"navigationBarBackgroundColor": "#FFFFFF"
+            }
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "商城",
+		"navigationBarBackgroundColor": "#f6f6f6",
+		"backgroundColor": "#f6f6f6",
+		"backgroundColorTop":"#FFFFFF"
+	},
+	"tabBar": {
+		"custom": true,
+		"selectedColor": "#f23030",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"iconPath": "/static/tabBar/tab1.png",
+				"selectedIconPath": "/static/tabBar/tab1_active.png",
+				"pagePath": "pages/index/index",
+				"text": ""
+			},
+			{
+				"iconPath": "/static/tabBar/tab2.png",
+				"selectedIconPath": "/static/tabBar/tab2_active.png",
+				"pagePath": "pages/rank/index",
+				"text": ""
+			},
+			{
+				"iconPath": "/static/tabBar/tab3.png",
+				"selectedIconPath": "/static/tabBar/tab3_active.png",
+				"pagePath": "pages/invest/index",
+				"text": ""
+			},
+			{
+				"iconPath": "/static/tabBar/tab4.png",
+				"selectedIconPath": "/static/tabBar/tab4_active.png",
+				"pagePath": "pages/searchorder/index",
+				"text": ""
+			},
+			{
+				"iconPath": "/static/tabBar/tab5.png",
+				"selectedIconPath": "/static/tabBar/tab5_active.png",
+				"pagePath": "pages/user/index",
+				"text": ""
+			}
+		]
+	}
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationBarTitleText": "疯抢排行",
+  "usingComponents": {
+    "tab-bar": "/components/TabBar/TabBar"
+  }
+}

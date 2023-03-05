@@ -1,0 +1,347 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 主要颜色 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.page.data-v-1549bb31 {
+  padding-bottom: 100rpx;
+  background-color: #f8f8f8;
+}
+.clearheight300.data-v-1549bb31 {
+  clear: both;
+  width: 100%;
+  height: 240rpx;
+}
+/* 为你推荐 */
+.recommend-info.data-v-1549bb31 {
+  width: 100%;
+  position: relative;
+}
+.recommend-info .recommend-title.data-v-1549bb31 {
+  width: 100%;
+}
+.recommend-info .recommend-title image.data-v-1549bb31 {
+  width: 100%;
+}
+.recommend-info .inve-box.data-v-1549bb31 {
+  width: 90%;
+  height: 330rpx;
+  background: #fffbf4;
+  border-radius: 20rpx;
+  margin: -120rpx auto 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.recommend-info .inve-box .inve-t1.data-v-1549bb31 {
+  width: 90%;
+  margin: 20rpx auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.recommend-info .inve-box .inve-t1 .t1a.data-v-1549bb31 {
+  color: #11293c;
+  font-size: 36rpx;
+  font-weight: bold;
+}
+.recommend-info .inve-box .inve-t1 .t1b.data-v-1549bb31 {
+  color: #969799;
+  font-size: 24rpx;
+}
+.recommend-info .inve-box .inve-t2.data-v-1549bb31 {
+  width: 90%;
+  margin: 20rpx auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.recommend-info .inve-box .inve-t2 .t2a.data-v-1549bb31 {
+  color: #ff0000;
+  font-size: 66rpx;
+  font-weight: bold;
+}
+.recommend-info .inve-box .inve-t2 .t2b.data-v-1549bb31 {
+  background: linear-gradient(90deg, #fd201b, #fd9e28);
+  color: #fff;
+  font-size: 32rpx;
+  font-weight: bold;
+  height: 34px;
+  padding: 0 30rpx;
+  line-height: 34px;
+  text-align: center;
+  border-radius: 5px;
+}
+.recommend-info .inve-box .inve-t3.data-v-1549bb31 {
+  width: 90%;
+  margin: 20rpx auto 0;
+  color: #505050;
+}
+.recommend-info .inve-box .inve-t4.data-v-1549bb31 {
+  width: 90%;
+  margin: 20rpx auto 0;
+  height: 80rpx;
+  line-height: 80rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #e4e0d8;
+}
+.recommend-info .inve-box .inve-t4 .t4a.data-v-1549bb31 {
+  width: 50%;
+  text-align: center;
+  color: #505050;
+  font-size: 28rpx;
+  border-right: 1px solid #e4e0d8;
+}
+.recommend-info .inve-box .inve-t4 .t4a .t4a1.data-v-1549bb31 {
+  font-weight: bold;
+}
+.recommend-info .inve-box .inve-t4 .t4b.data-v-1549bb31 {
+  width: 50%;
+  color: #505050;
+  text-align: center;
+  font-size: 28rpx;
+}
+.recommend-info .inve-box .inve-t4 .t4b .t4b1.data-v-1549bb31 {
+  font-weight: bold;
+}
+.recommend-info .head-bg.data-v-1549bb31 {
+  width: 100%;
+  background: linear-gradient(to right, #fe3b0f, #fc603a);
+}
+.recommend-info .head-bg .session.data-v-1549bb31 {
+  width: 100%;
+  height: 100rpx;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.recommend-info .head-bg .session .list.data-v-1549bb31 {
+  position: relative;
+  display: inline-block;
+  width: 200rpx;
+  height: 100rpx;
+  margin-top: 10rpx;
+  text-align: center;
+}
+.recommend-info .head-bg .session .list .time.data-v-1549bb31 {
+  display: block;
+  width: 100%;
+  height: 50rpx;
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.recommend-info .head-bg .session .list .status.data-v-1549bb31 {
+  display: block;
+  width: 100%;
+  height: 50rpx;
+  font-size: 24rpx;
+  color: #FFFFFF;
+}
+.recommend-info .head-bg .session .list.data-v-1549bb31:nth-child(1) {
+  margin-left: 20rpx;
+}
+.recommend-info .head-bg .session .action.data-v-1549bb31 {
+  width: 200rpx;
+  height: 100rpx;
+  background: #fff;
+  border-top-left-radius: 20rpx;
+  border-top-right-radius: 20rpx;
+}
+.recommend-info .head-bg .session .action .time.data-v-1549bb31 {
+  color: #FF0000;
+}
+.recommend-info .head-bg .session .action .status.data-v-1549bb31 {
+  color: #FF0000;
+}
+.recommend-info .head-bg .activity.data-v-1549bb31 {
+  position: fixed;
+  left: 0;
+  top: 100rpx;
+  top: 150rpx;
+  z-index: 100;
+  background-color: #FFFFFF;
+}
+.recommend-info .head-bg .activity .list .time.data-v-1549bb31 {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #222222;
+}
+.recommend-info .head-bg .activity .list .status.data-v-1549bb31 {
+  font-size: 24rpx;
+  color: #222222;
+}
+.recommend-info .head-bg .activity .action .time.data-v-1549bb31 {
+  color: #fe3b0f;
+}
+.recommend-info .head-bg .activity .action .status.data-v-1549bb31 {
+  color: #fe3b0f;
+}
+.recommend-info .djsbox.data-v-1549bb31 {
+  width: 60%;
+  margin: 20rpx auto;
+  height: 60rpx;
+  line-height: 60rpx;
+}
+.recommend-info .djsbox text.data-v-1549bb31 {
+  background: #1a8ee9;
+  border-radius: 10rpx;
+  padding: 12rpx;
+  color: #FFFFFF;
+  font-weight: bold;
+  margin-left: 10rpx;
+}
+.recommend-info .goods-list.data-v-1549bb31 {
+  margin-top: 30rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 30rpx;
+}
+.recommend-info .goods-list .list.data-v-1549bb31 {
+  width: 49%;
+  height: 640rpx;
+  margin-bottom: 20rpx;
+  background-color: #FFFFFF;
+  border-radius: 10rpx;
+  overflow: hidden;
+}
+.recommend-info .goods-list .list .pictrue.data-v-1549bb31 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.recommend-info .goods-list .list .pictrue image.data-v-1549bb31 {
+  height: 350rpx;
+}
+.recommend-info .goods-list .list .title-tag.data-v-1549bb31 {
+  height: 100rpx;
+  padding: 20rpx;
+}
+.recommend-info .goods-list .list .title-tag .tag.data-v-1549bb31 {
+  float: left;
+  margin-right: 10rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+  font-size: 32rpx;
+  line-height: 40rpx;
+  color: #11293c;
+  font-weight: bold;
+}
+.recommend-info .goods-list .list .title-tag .tag text.data-v-1549bb31 {
+  font-size: 24rpx;
+  color: #FFFFFF;
+  padding: 4rpx 16rpx;
+  background: linear-gradient(to right, #fe3b0f, #fc603a);
+  border-radius: 6rpx;
+  margin-right: 10rpx;
+}
+.recommend-info .goods-list .list .price-info.data-v-1549bb31 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20rpx;
+  height: 80rpx;
+}
+.recommend-info .goods-list .list .price-info .user-price.data-v-1549bb31 {
+  display: flex;
+  align-items: center;
+}
+.recommend-info .goods-list .list .price-info .user-price text.data-v-1549bb31 {
+  font-weight: bold;
+  color: #FF0000;
+}
+.recommend-info .goods-list .list .price-info .user-price .jifen.data-v-1549bb31 {
+  font-size: 38rpx;
+}
+.recommend-info .goods-list .list .price-info .user-price .min.data-v-1549bb31 {
+  font-size: 24rpx;
+}
+.recommend-info .goods-list .list .price-info .user-price .max.data-v-1549bb31 {
+  font-size: 32rpx;
+}
+.recommend-info .goods-list .list .price-info .user-price2.data-v-1549bb31 {
+  display: flex;
+  align-items: center;
+}
+.recommend-info .goods-list .list .price-info .user-price2 text.data-v-1549bb31 {
+  color: #FF0000;
+}
+.recommend-info .goods-list .list .price-info .user-price2 .jifen.data-v-1549bb31 {
+  font-size: 38rpx;
+}
+.recommend-info .goods-list .list .price-info .user-price2 .min.data-v-1549bb31 {
+  font-size: 24rpx;
+}
+.recommend-info .goods-list .list .price-info .user-price2 .max.data-v-1549bb31 {
+  font-size: 24rpx;
+}
+.recommend-info .goods-list .list .price-info .vip-price.data-v-1549bb31 {
+  display: flex;
+  align-items: center;
+}
+.recommend-info .goods-list .list .price-info .vip-price image.data-v-1549bb31 {
+  width: 26rpx;
+  height: 26rpx;
+  margin-right: 10rpx;
+}
+.recommend-info .goods-list .list .price-info .vip-price text.data-v-1549bb31 {
+  color: #fcb735;
+  font-size: 24rpx;
+}
+.recommend-info .goods-list .list .price-info .del-price.data-v-1549bb31 {
+  display: flex;
+  align-items: center;
+}
+.recommend-info .goods-list .list .price-info .del-price image.data-v-1549bb31 {
+  width: 26rpx;
+  height: 26rpx;
+  margin-right: 10rpx;
+}
+.recommend-info .goods-list .list .price-info .del-price text.data-v-1549bb31 {
+  color: #666666;
+  font-size: 24rpx;
+  text-decoration: line-through;
+}
+.recommend-info .goods-list .list .button-rem.data-v-1549bb31 {
+  width: 90%;
+  height: 64rpx;
+  border-radius: 16rpx;
+  text-align: center;
+  line-height: 64rpx;
+  margin: 30rpx auto 0;
+  color: white;
+  background: linear-gradient(to right, #ff2400, #fea005);
+  border: 0px;
+}
+
